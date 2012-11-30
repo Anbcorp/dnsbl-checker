@@ -1,0 +1,27 @@
+This is a quick program that I wrote to see if a given MX ip is blocked by
+popular MX blacklisting services (through dnsbl.info)
+
+Return code is (or should be) nagios compatible (0 -> ok, 2 -> critical, 3 ->
+unknown)
+
+
+Synopsis
+========
+
+Usage: dnsbl.py -s SERVER [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -d, --debug           Debug mode, prints out lot of garbage
+  -s SERVER, --server=SERVER
+                        MX server to check
+
+
+Licence
+=======
+
+Public domain, do anything you want with the code.
+The program is given WITHOUT ANY WARRANTY, no event the warranty that it will
+work.
+
+Mentions, feeback and improvments are welcome.
